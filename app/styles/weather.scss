@@ -1,0 +1,37 @@
+.weather {
+  color: white;
+}
+.weather:before {
+  background: url(images/chicago.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -webkit-filter: blur(4px);
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  opacity: 1;
+  content: '';
+}
+
+.weather .sidebar {
+  padding-top: 23px;
+}
+
+.temp {
+  font-size: 75px;
+}
+
+.word {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.extended-forecast {
+  font-size: 40px;
+  .word {
+    font-size: 20px;
+  }
+}

@@ -1,7 +1,7 @@
 /* global require */
 
-var Application = require('ember-mail/app')['default'];
-var Router = require('ember-mail/router')['default'];
+var Application = require('ember-chi/app')['default'];
+var Router = require('ember-chi/router')['default'];
 
 export default function startApp(attrs) {
   var App;

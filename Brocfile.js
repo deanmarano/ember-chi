@@ -9,6 +9,10 @@ var app = new EmberApp({
     enabled: true,
     options: {}
   },
+  cssOptions: {
+    sourceComments: 'map',
+    sourceMap: true
+  },
 
   getEnvJSON: require('./config/environment')
 });

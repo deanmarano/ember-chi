@@ -1,0 +1,16 @@
+<div class="weather">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="col-sm-2">
+        <ul class="list-unstyled nav nav-pills nav-stacked sidebar">
+          {{#link-to 'weather.today' tagName='li'}}<a>Today</a>{{/link-to}}
+          {{#link-to 'weather.tomorrow' tagName='li'}}<a>Tomorrow</a>{{/link-to}}
+          {{#link-to 'weather.extended' tagName='li'}}<a>7 Day</a>{{/link-to}}
+        </ul>
+      </div>
+      <div class="col-sm-10">
+        {{outlet}}
+      </div>
+    </div>
+  </div>
+</div>

@@ -4544,6 +4544,15 @@ html, body {
 .cubs {
   background: white; }
 
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  background-color: #222222;
+  padding: 20px;
+  color: #eeeeee; }
+
 .weather {
   color: white; }
 
@@ -4578,3 +4587,5 @@ html, body {
 
 .news {
   background-color: white; }
+
+/*# sourceMappingURL=ember-chi.css.map */

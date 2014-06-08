@@ -1,0 +1,20 @@
+<h1>Current Weather</h1>
+<div class="row">
+  <div class="col-sm-2 temp">75°</div>
+  <div class="col-sm-4 words">
+    <div class="word">
+      Sunny
+    </div>
+    <div>
+      50% Humidity
+    </div>
+  </div>
+</div>
+<div class="row">
+<ul class="nav nav-tabs col-sm-12">
+  {{#link-to 'today.roads' tagName="li"}}<a>Roads</a>{{/link-to}}
+  {{#link-to 'today.allergies' tagName="li"}}<a>Allergies</a>{{/link-to}}
+  {{#link-to 'today.pressure' tagName="li"}}<a>Pressure</a>{{/link-to}}
+</ul>
+{{outlet}}
+</div>

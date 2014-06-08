@@ -5,7 +5,11 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.resource('weather', {path: '/weather'}, function() {
     this.route('tomorrow');
-    this.route('today');
+    this.resource('today', {}, function() {
+      this.route('roads');
+      this.route('allergies');
+      this.route('pressure');
+    });
     this.route('extended');
   });
   this.resource('news', {path: '/news'}, function() {

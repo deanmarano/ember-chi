@@ -39,3 +39,13 @@ html, body {
 .cubs {
   background: white;
 }
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  background-color: $gray-darker;
+  padding: 20px;
+  color: $gray-lighter;
+}

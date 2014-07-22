@@ -3,11 +3,17 @@
 Move blazingly fast with prototyping. Demo written for a talk. Use the following technologies:
 
 * Live reloading of HTML/CSS.
-* Use reusable components though {{partials}}.
-* Structure your layout using {{outlet}}.
+* Use reusable components though `{{partials}}`.
+* Structure your layout using `{{outlet}}`.
 * Easily use SASS, LESS, or Stylus CSS preprocessors.
 
-Slides from talk can be found [here](http://slides.com/il1019/prototypes#/) and the demo of this site is [here](http://deanmarano.github.io/ember-chi/). Happy prototyping!
+## Links
+* [Talk](http://vimeo.com/101336492)
+* [Transcription of Talk](https://github.com/deanmarano/ember-chi/blob/master/talk.md)
+* [Slides](http://slides.com/il1019/prototypes#/)
+* [Demo Site](http://deanmarano.github.io/ember-chi/)
+
+Happy prototyping!
 
 ## Prototyping 'The Ember Way'
 

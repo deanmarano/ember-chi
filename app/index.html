@@ -9,12 +9,16 @@
 
     {{BASE_TAG}}
 
+    <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/ember-chi.css">
   </head>
   <body>
     <script>
+      window.EmberChiENV = {{ENV}};
       window.ENV = {{ENV}};
+      window.EmberENV = window.EmberChiENV.EmberENV;
     </script>
+    <script src="assets/vendor.js"></script>
     <script src="assets/ember-chi.js"></script>
     <script>
       window.EmberChi = require('ember-chi/app')['default'].create(ENV.APP);

@@ -19,11 +19,12 @@ Happy prototyping!
 
 1. Install node.js (`brew install nodejs` on a Mac, `apt-get install nodejs` on unix).
 2. Install ember-cli (`npm install -g ember-cli`).
-3. Create a new Ember project (`ember new project-name`).
-4. Install dependencies (`cd project-name && npm install`).
-5. Start the server (`ember serve`).
-6. Start editing `app/templates/application.hbs` and `app/styles/app.css`.
-7. Learn about `{{outlet}}`s and `{{partial}}`s to start reusing.
+3. Install Bower (`npm install -g bower`).
+4. Create a new Ember project (`ember new project-name`).
+5. Install dependencies (`cd project-name && npm install && bower install`).
+6. Start the server (`ember serve`).
+7. Start editing `app/templates/application.hbs` and `app/styles/app.css`.
+8. Learn about `{{outlet}}`s and `{{partial}}`s to start reusing.
 
 ### Using a CSS Preprocessor
 
